@@ -1,0 +1,54 @@
+.homePageContainer {
+    flex-grow: 1;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 2;
+  }
+  
+  .titleGrid {
+    margin-top: 180px;
+  }
+  
+  .title {
+    font-family: 'EFT_Asaf Heavy';
+    font-style: normal;
+    color: rgb(10, 63, 61);
+  }
+  
+  .subtitle {
+    font-family: 'EFT_Asaf Heavy';
+    font-style: normal;
+    color: rgb(10, 63, 61);
+  }
+  
+  .title.small {
+    font-size: 60px;
+  }
+  
+  .title.medium {
+    font-size: 90px;
+  }
+  
+  .title.large {
+    font-size: 120px;
+  }
+  
+  .subtitle.small {
+    font-size: 25px;
+  }
+  
+  .subtitle.medium {
+    font-size: 35px;
+  }
+  
+  .subtitle.large {
+    font-size: 50px;
+  }
+  

@@ -1,0 +1,38 @@
+/* מרכז את כותרת ה-Accordion בצד ימין */
+.custom-accordion .MuiAccordionSummary-root {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    /* הכותרת מצד ימין */
+    text-align: right;
+    /* ממרכז את השאלה מימין */
+    width: 100%;
+    direction: rtl;
+    /* שים לב ששינית את כיוון הכתיבה */
+}
+
+/* מרכז את תוכן ה-Accordion */
+.custom-accordion .MuiAccordionDetails-root {
+    background-color: white;
+    color: black;
+    overflow-y: auto;
+    max-height: 200px;
+    padding: 16px;
+    display: flex;
+    justify-content: right;
+    /* מרכז את התוכן */
+    align-items: right;
+    text-align: right;
+}
+
+/* שינוי הכיוון של החץ */
+.custom-accordion .MuiAccordionSummary-expandIconWrapper {
+    order: -1;
+    /* משנה את המיקום של החץ מצד ימין לצד שמאל */
+}
+
+/* אם יש צורך למרכז גם את הטקסט בהרחבה */
+.custom-accordion .MuiTypography-root {
+    text-align: right;
+}
